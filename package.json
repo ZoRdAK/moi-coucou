@@ -1,0 +1,11 @@
+{
+  "name": "moi-coucou",
+  "version": "1.0.0",
+  "description": "Page web basique qui affiche coucou",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -p 80 index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
