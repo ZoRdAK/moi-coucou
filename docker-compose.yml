@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: ghcr.io/openclaw/openclaw:latest
+    build: .
     container_name: moi-coucou-app
     expose:
       - "80"
