@@ -4,8 +4,8 @@ WORKDIR /app
 COPY . .
 
 RUN npm install serve && \
-    npx serve -p 80 index.html & exit 0 || true
+    npx serve -l 80 . & exit 0 || true
 
 EXPOSE 80
 
-CMD ["sh", "-c", "npx serve -p 80 index.html"]
+CMD ["sh", "-c", "npx serve -l 80 ."]
